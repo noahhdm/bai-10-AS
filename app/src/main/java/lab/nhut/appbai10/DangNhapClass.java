@@ -16,7 +16,17 @@ public class DangNhapClass extends Activity {
         setContentView(R.layout.layout_dangnhap);
 
         //khai báo
+        Button btdangnhap = findViewById(R.id.button_dangnhap_dangnhap);
         Button btback = findViewById(R.id.button_dangnhap_trolai);
+
+        //sự kiện nút đăng nhập
+        btdangnhap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(DangNhapClass.this, DKMHClass.class);
+                startActivity(it);
+            }
+        });
 
         //sự kiện nút trở lại
         btback.setOnClickListener(new View.OnClickListener() {

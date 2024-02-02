@@ -32,13 +32,23 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.layout_chucnang);
         Button bt_chucnang_dangnhap = findViewById(R.id.button_chucnang_dangnhap);
-
+        Button bt_chucnang_dkmh = findViewById(R.id.button_chucnang_dkmh);
         //sự kiện nút chức năng đăng nhập
         bt_chucnang_dangnhap.setOnClickListener(new View.OnClickListener() {
-            //đi tới trang đăng nh
+            //đi tới trang đăng nhập
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, DangNhapClass.class);
+                startActivity(it);
+            }
+        });
+
+        //sự kiện nút chức năng đăng ký môn học
+        bt_chucnang_dkmh.setOnClickListener(new View.OnClickListener() {
+            //đi tới trang đăng ký môn học
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, DKMHClass.class);
                 startActivity(it);
             }
         });

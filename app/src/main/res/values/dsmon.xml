@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="QTKD">
+        <item>Quản trị nhân sự</item>
+        <item>Quản trị thương mại</item>
+        <item>Quản trị marketing</item>
+    </string-array>
+
+    <string-array name="Dulich">
+        <item>Cơ sở du lịch</item>
+        <item>Thực hành Khách sạn</item>
+        <item>Quản lý du lịch và Điểm đến</item>
+    </string-array>
+
+    <string-array name="Cokhi">
+        <item>Nguyên lý máy</item>
+        <item>Cơ sở thiết kế máy</item>
+        <item>Công nghệ chế tạo máy</item>
+    </string-array>
+
+    <string-array name="CNTT">
+        <item>Khoa học máy tính</item>
+        <item>Kỹ thuật máy tính</item>
+        <item>Hệ thống thông tin</item>
+    </string-array>
+
+    <string-array name="Ketoan">
+        <item>Kinh tế vi mô</item>
+        <item>Kinh tế vĩ mô</item>
+        <item>Kinh tế quốc tế</item>
+    </string-array>
+
+    <string-array name="Coban">
+        <item>Toán </item>
+        <item>Vật lý</item>
+        <item>Hóa học</item>
+    </string-array>
+
+    <string-array name="TCNN">
+        <item>Tài chính quốc tế</item>
+        <item>Tài chính doanh nghiệp</item>
+        <item>Ngân hàng thương mại</item>
+    </string-array>
+
+    <string-array name="Ngoaingu">
+        <item>Ngôn ngữ học</item>
+        <item>Giao tiếp liên văn hóa</item>
+        <item>Đất nước học Anh-Mỹ</item>
+    </string-array>
+
+
+</resources>

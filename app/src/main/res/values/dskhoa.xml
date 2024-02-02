@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="khoa">
+         <item>khoa QTKD</item>
+         <item>khoa Du Lịch</item>
+         <item>khoa Cơ Khí</item>
+         <item>khoa CNTT</item>
+         <item>khoa Kế Toán</item>
+         <item>khoa Cơ Bản</item>
+         <item>khoa Tài Chính Ngân Hàng</item>
+         <item>khoa Ngoại Ngữ</item>
+     </string-array>
+</resources>

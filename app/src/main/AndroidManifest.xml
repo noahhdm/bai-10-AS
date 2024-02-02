@@ -28,6 +28,11 @@
                   android:label="demo login">
 
         </activity>
+
+        <activity android:name=".DKMHClass"
+            android:label="demo DKMH">
+
+        </activity>
     </application>
 
 </manifest>
